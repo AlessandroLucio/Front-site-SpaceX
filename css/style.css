@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+* {
+  color: #fff;
+}
+
+.header {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  width: 5.6rem;
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+
+.logoPc {
+  width: 15rem;
+  margin-left: -0.6rem;
+  margin-right: 1.25rem;
+}
+
+#button {
+  padding: 20px;
+}
+
+.navBar {
+  display: flex;
+}
+
+.container00.container01 {
+  background-image: url("../../images/home/01.jpg");
+}
+.container00.container02 {
+  background-image: url("../../images/home/03.jpg");
+}
+.container00.container03 {
+  background-image: url("../../images/home/02.gif");
+}
+.container00.container04 {
+  background-image: url("../../images/home/04.jpg");
+}
+
+.titlePadding {
+  padding-top: 12.5rem;
+}
+
+.shortTitle {
+  width: 500px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+/*# sourceMappingURL=style.css.map */
