@@ -22,13 +22,14 @@
 }
 
 .logoPc {
-  width: 15rem;
+  width: 6rem;
   margin-left: -0.6rem;
   margin-right: 1.25rem;
 }
 
 #button {
   padding: 20px;
+  border: 2px solid #fff;
 }
 
 .navBar {
@@ -54,12 +55,12 @@
 
 .shortTitle {
   width: 500px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .footer {
@@ -77,6 +78,10 @@
 }
 .footer a:hover {
   color: #b9b9b9;
+}
+
+.container00.container05 {
+  background-image: url("../../images/falcon9/01.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
