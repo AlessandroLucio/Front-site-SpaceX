@@ -109,6 +109,15 @@
     }
   }
   #overViewPosition {
-    padding-top: 65%;
+    padding-top: 35%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 65vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin: 0 3%;
   }
 }
