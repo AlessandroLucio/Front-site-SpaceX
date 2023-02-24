@@ -86,6 +86,9 @@
 .container00.container06 {
   background-image: url("../../images/falcon9/02.jpg");
 }
+.container00.container07 {
+  background-image: url("../../images/falcon9/08.jpg");
+}
 .container00.carrossel01 {
   background-image: url("../../images/falcon9/03.jpg");
 }
@@ -136,15 +139,15 @@
   align-items: center;
 }
 .containerFalcon9Desc .falcon9Desc {
-  font-size: 22px;
+  font-size: 20px;
   width: 640px;
   line-height: 50px;
 }
 
 #overViewPosition {
   width: 500px;
-  margin-left: 13%;
-  margin-top: 15%;
+  margin-left: 12%;
+  padding-top: 10%;
 }
 
 .carrosselSlide img {
@@ -169,6 +172,21 @@
 .downloadDesc button {
   border: 2px solid #fff;
   margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumbers {
+    font-size: 75px;
+  }
+  .numbers .subTitleNumbers {
+    font-size: 16px;
+  }
+  .containerFalcon9Desc .falcon9Desc {
+    width: auto;
+  }
+  #overViewPosition {
+    padding-top: 65%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
