@@ -75,24 +75,6 @@
     background-color: #000;
   }
 }
-.downloadDesc {
-  height: 85vh;
-  background-color: #000;
-  padding-top: 240px;
-
-  a {
-    text-decoration: none;
-    color: $link_hover;
-
-    &:hover {
-      color: $copy_color;
-    }
-  }
-  button {
-    border: 2px solid #fff;
-    margin-right: 10px;
-  }
-}
 
 @media (max-width: 768px) {
   .numbers {
@@ -119,5 +101,49 @@
   #overViewPosition {
     width: auto;
     margin: 0 3%;
+  }
+}
+@media (max-width: 465px) {
+  .titleFalcon9 {
+    font-size: 70px;
+  }
+  .subtitleFalcon9 {
+    font-size: 16px;
+  }
+  .containerFalcon9Desc {
+    .falcon9Desc {
+      font-size: 15px;
+      line-height: 40px;
+    }
+  }
+  .table {
+    font-size: 13px;
+  }
+  footer {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 419px) {
+  .downloadDesc {
+    padding: 240px 2px;
+
+    button {
+      margin: 10px 5px;
+    }
+  }
+  .titleFalcon9 {
+    font-size: 60px;
+  }
+  .subtitleFalcon9 {
+    font-size: 15px;
+  }
+  footer {
+    flex-direction: column;
+
+    p {
+    }
+    div {
+    }
   }
 }
